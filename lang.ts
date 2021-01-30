@@ -20,6 +20,11 @@
     </message>
     <message>
         
+        <source>Apply address filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
@@ -49,6 +54,76 @@
     <message>
         
         <source>&lt;a href=&quot;http://needpv.tusb.org&quot;&gt;Need a sniffer?&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Advanced Option</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Debug Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>set log file name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Set Log File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Packet Type Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Select All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Packet Address Endpoint Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Select debug log file name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source> packets match follow condition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Accept</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Drop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Enable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Endpoint:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -85,6 +160,49 @@
     <message>
         
         <source>Stop code %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DecoderConfigDialog</name>
+    <message>
+        
+        <source>Decoder Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Enable Auto Decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>OK&amp;&amp;Reparse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Parser Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Endpoints</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -580,7 +698,27 @@
     </message>
     <message>
         
-        <source>Decoder Pending: %1, Memory %2</source>
+        <source>Refresh Decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>F5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Configure Decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>&amp;Append</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Decoder Parsed: %1, Memory %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -591,7 +729,17 @@
     </message>
     <message>
         
+        <source>Append</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
         <source>Total: %1. Parsed: %2. Visible: %3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Updating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -607,6 +755,11 @@
     <message>
         
         <source>Array data, 0x11, 0x22 ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Hex String, &quot;\x11\x22...&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -633,6 +786,104 @@
     <message>
         
         <source>Fail to load translate file %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Searching</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MyDialogButtonBox</name>
+    <message>
+        
+        <source>OK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>SaveAll</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>YesToAll</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>NoToAll</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Abort</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Retry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Ignore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>RestoreDefaults</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -805,6 +1056,29 @@
     </message>
 </context>
 <context>
+    <name>RecoverDialog</name>
+    <message>
+        
+        <source>There are %1 files that are not closed properly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>There is a file that is not closed properly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>File %1, Modify Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Recovery Capture Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SettingDialog</name>
     <message>
         
@@ -818,7 +1092,32 @@
     </message>
     <message>
         
+        <source>million packets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
         <source>Packet large than max packet count will not display, but still can be record in file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Temp File path:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>set temporary file path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Select Path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -878,6 +1177,11 @@
     </message>
     <message>
         
+        <source>Select Temporary file path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
         <source>Decode</source>
         <translation type="unfinished"></translation>
     </message>
@@ -929,6 +1233,146 @@
     <message>
         
         <source>Absolute Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UPVGraphItem</name>
+    <message>
+        
+        <source>Graph View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Set timestamp origin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Continue setup: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>:  Addr %1 Ep 0x%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Decode As:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UPVPacketItem</name>
+    <message>
+        
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Timestamp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Destination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Show in Packet Viewer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Set timestamp origin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UPVServerDialog</name>
+    <message>
+        
+        <source>USB Packet Viewer Server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>TCP Server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        
+        <source>Addr:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        
+        <source>Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        
+        
+        
+        <source>Listen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>UDP Server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Log:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>Exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        
+        <source>USB Packet Viewer Server running</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

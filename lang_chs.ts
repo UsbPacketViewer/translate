@@ -19,15 +19,21 @@
         <source>Apply</source>
         <translation>过滤</translation>
     </message>
+    <message>
+        <source>Apply address filter</source>
+        <translation>使用地址过滤器</translation>
+    </message>
 </context>
 <context>
     <name>CaptureConfigDialog</name>
     <message>
         <source>Sniffer Config</source>
+        <oldsource>Capture Config</oldsource>
         <translation>抓包器配置</translation>
     </message>
     <message>
         <source>Select sniffer:</source>
+        <oldsource>Select capture:</oldsource>
         <translation>选择抓包器:</translation>
     </message>
     <message>
@@ -41,6 +47,62 @@
     <message>
         <source>&lt;a href=&quot;http://needpv.tusb.org&quot;&gt;Need a sniffer?&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;http://needpv.tusb.org&quot;&gt;需要抓包器?&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Advanced Option</source>
+        <translation>高级选项</translation>
+    </message>
+    <message>
+        <source>Packet Type Filter</source>
+        <translation>按类型过滤</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>全选</translation>
+    </message>
+    <message>
+        <source>Packet Address Endpoint Filter</source>
+        <translation>按地址和端点过滤</translation>
+    </message>
+    <message>
+        <source> packets match follow condition</source>
+        <translation>满足下列条件的包</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>接受</translation>
+    </message>
+    <message>
+        <source>Drop</source>
+        <translation>丢弃</translation>
+    </message>
+    <message>
+        <source>Enable</source>
+        <translation>生效</translation>
+    </message>
+    <message>
+        <source>Address:</source>
+        <translation>地址:</translation>
+    </message>
+    <message>
+        <source>Endpoint:</source>
+        <translation>端点:</translation>
+    </message>
+    <message>
+        <source>Debug Mode</source>
+        <translation>调试模式</translation>
+    </message>
+    <message>
+        <source>set log file name</source>
+        <translation>设置日志文件名</translation>
+    </message>
+    <message>
+        <source>Set Log File</source>
+        <translation>设置日志文件</translation>
+    </message>
+    <message>
+        <source>Select debug log file name</source>
+        <translation>选择调试日志文件名</translation>
     </message>
 </context>
 <context>
@@ -71,6 +133,41 @@
     <message>
         <source>Stop code %1</source>
         <translation>停止代码 %1</translation>
+    </message>
+</context>
+<context>
+    <name>DecoderConfigDialog</name>
+    <message>
+        <source>Decoder Configuration</source>
+        <translation>解码器配置</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>添加</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>删除</translation>
+    </message>
+    <message>
+        <source>Parser Name</source>
+        <translation>解码器名称</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>设备地址</translation>
+    </message>
+    <message>
+        <source>Endpoints</source>
+        <translation>端点配置</translation>
+    </message>
+    <message>
+        <source>OK&amp;&amp;Reparse</source>
+        <translation>确定并重新解析</translation>
+    </message>
+    <message>
+        <source>Enable Auto Decoder</source>
+        <translation>启用自动解码</translation>
     </message>
 </context>
 <context>
@@ -157,6 +254,7 @@
     </message>
     <message>
         <source>&lt;%1&gt; not found.</source>
+        <oldsource>&lt;%1&gt; not found. %1</oldsource>
         <translation>&lt;%1&gt;未找到.</translation>
     </message>
 </context>
@@ -475,6 +573,7 @@
     </message>
     <message>
         <source>English</source>
+        <oldsource>&amp;English</oldsource>
         <translation></translation>
     </message>
     <message>
@@ -495,6 +594,7 @@
     </message>
     <message>
         <source>Read %1 packets, parse %2 packets from %3</source>
+        <oldsource>Read %1 packet from %2</oldsource>
         <translation type="vanished">读取%1包，解析%2包，%3</translation>
     </message>
     <message>
@@ -507,7 +607,7 @@
     </message>
     <message>
         <source>Decoder Pending: %1, Memory %2</source>
-        <translation>待解码: %1, 内存消耗 %2</translation>
+        <translation type="vanished">待解码: %1, 内存消耗 %2</translation>
     </message>
     <message>
         <source>Write %1 packet to %2</source>
@@ -549,6 +649,113 @@
         <source>Save packet to file</source>
         <translation>记录数据包到文件中</translation>
     </message>
+    <message>
+        <source>Decoder Parsed: %1, Memory %2</source>
+        <translation>已解码:%1, 内存消耗 %2</translation>
+    </message>
+    <message>
+        <source>Updating</source>
+        <translation>更新中</translation>
+    </message>
+    <message>
+        <source>Searching</source>
+        <translation>搜索中</translation>
+    </message>
+    <message>
+        <source>Refresh Decoder</source>
+        <translation>刷新解码器</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Configure Decoder</source>
+        <translation>配置解码器</translation>
+    </message>
+    <message>
+        <source>&amp;Append</source>
+        <translation>追加(&amp;A)</translation>
+    </message>
+    <message>
+        <source>Append</source>
+        <translation>追加</translation>
+    </message>
+</context>
+<context>
+    <name>MyDialogButtonBox</name>
+    <message>
+        <source>OK</source>
+        <translation>确定</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>SaveAll</source>
+        <translation>全部保存</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>是</translation>
+    </message>
+    <message>
+        <source>YesToAll</source>
+        <translation>全部是</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>NoToAll</source>
+        <translation>全部否</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>重试</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>忽略</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>丢弃</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>帮助</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>应用</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>复位</translation>
+    </message>
+    <message>
+        <source>RestoreDefaults</source>
+        <translation>恢复默认</translation>
+    </message>
 </context>
 <context>
     <name>MyGraphItem</name>
@@ -583,6 +790,7 @@
     <name>OptionDialog</name>
     <message>
         <source>Option Dialog</source>
+        <oldsource>Dialog</oldsource>
         <translation>抓包参数对话框</translation>
     </message>
     <message>
@@ -665,7 +873,7 @@
     </message>
     <message>
         <source>Destination</source>
-        <translation>目的</translation>
+        <translation>目标</translation>
     </message>
     <message>
         <source>Length</source>
@@ -685,6 +893,29 @@
     <message>
         <source>Dialog</source>
         <translation></translation>
+    </message>
+</context>
+<context>
+    <name>RecoverDialog</name>
+    <message>
+        <source>Recovery Capture Data</source>
+        <translation>恢复抓包数据</translation>
+    </message>
+    <message>
+        <source>There are %1 files that are not closed properly</source>
+        <translation>有%1个文件未正常关闭</translation>
+    </message>
+    <message>
+        <source>There is a file that is not closed properly</source>
+        <translation>有一个文件未正常关闭</translation>
+    </message>
+    <message>
+        <source>Modify Time:</source>
+        <translation type="vanished">修改时间:</translation>
+    </message>
+    <message>
+        <source>File %1, Modify Time:</source>
+        <translation>文件%1, 修改时间:</translation>
     </message>
 </context>
 <context>
@@ -739,6 +970,7 @@
     </message>
     <message>
         <source>Decoder will stop when exceed max memory. You can increase the memory and continue decode.</source>
+        <oldsource>Decoder will stop when exceed max memory. You can increase the memory and start again.</oldsource>
         <translation>当超过最大内存时，解码器将停止。您可以增加内存并继续解码。</translation>
     </message>
     <message>
@@ -788,6 +1020,139 @@
     <message>
         <source>Absolute Time</source>
         <translation>绝对时间</translation>
+    </message>
+    <message>
+        <source>million packets</source>
+        <translation>百万包</translation>
+    </message>
+    <message>
+        <source>Temp File path:</source>
+        <translation>临时文件目录</translation>
+    </message>
+    <message>
+        <source>set temporary file path</source>
+        <translation>设置临时文件目录</translation>
+    </message>
+    <message>
+        <source>Select Path</source>
+        <translation>选择目录</translation>
+    </message>
+    <message>
+        <source>Select Temporary file path</source>
+        <translation>选择临时文件目录</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>显示</translation>
+    </message>
+</context>
+<context>
+    <name>UPVGraphItem</name>
+    <message>
+        <source>Graph View</source>
+        <translation>图形视图</translation>
+    </message>
+    <message>
+        <source>Set timestamp origin</source>
+        <translation>设置为时间戳原点</translation>
+    </message>
+    <message>
+        <source>Decode As:</source>
+        <translation>解码为:</translation>
+    </message>
+    <message>
+        <source>Continue setup: </source>
+        <translation>继续设置: </translation>
+    </message>
+    <message>
+        <source>:  Addr %1 Ep 0x%2</source>
+        <translation>: 地址 %1 端点 0x%2</translation>
+    </message>
+</context>
+<context>
+    <name>UPVPacketItem</name>
+    <message>
+        <source>Type</source>
+        <translation>类型</translation>
+    </message>
+    <message>
+        <source>Timestamp</source>
+        <translation>时间戳</translation>
+    </message>
+    <message>
+        <source>Destination</source>
+        <translation>目标</translation>
+    </message>
+    <message>
+        <source>Length</source>
+        <translation>长度</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>数据</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>信息</translation>
+    </message>
+    <message>
+        <source>Show in Packet Viewer</source>
+        <translation>在包查看器中显示</translation>
+    </message>
+    <message>
+        <source>Set timestamp origin</source>
+        <translation>设置为时间戳原点</translation>
+    </message>
+</context>
+<context>
+    <name>UPVServerDialog</name>
+    <message>
+        <source>USB Packet Viewer Server</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>TCP Server</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Addr:</source>
+        <translation>地址:</translation>
+    </message>
+    <message>
+        <source>Port:</source>
+        <translation>端口:</translation>
+    </message>
+    <message>
+        <source>Listen</source>
+        <translation>监听</translation>
+    </message>
+    <message>
+        <source>UDP Server</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Log:</source>
+        <translation>日志:</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>显示</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>退出</translation>
+    </message>
+    <message>
+        <source>USB Packet Viewer Server running</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
